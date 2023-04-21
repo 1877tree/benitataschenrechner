@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+	<title>Benita's Taschenrechner</title>
+	<meta charset="utf-8">
+
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body style="background-color: #415a77">
+	<div class="center">
+		<h1>Benita's Taschenrechner</h1>
+
+		<div id="input_calc"></div>
+
+		<div id="quadrat_buttons">
+			<button onclick="input(1)">1</button>
+			<button onclick="input(2)">2</button>
+			<button onclick="input(3)">3</button>
+			<button onclick="input('+')">+</button>
+			<button onclick="input(4)">4</button>
+			<button onclick="input(5)">5</button>
+			<button onclick="input(6)">6</button>
+			<button onclick="input('-')">-</button>
+			<button onclick="input(7)">7</button>
+			<button onclick="input(8)">8</button>
+			<button onclick="input(9)">9</button>
+			<button onclick="input('*')">*</button>
+			<button onclick="input(0)">0</button>
+			<button onclick="input('.')">.</button>
+			<button onclick="rechnen()">=</button>
+			<button onclick="input('/')">/</button>
+
+			<button onclick="input_delete_all()" class="delete">C</button>
+			<button onclick="input_delete_one()" class="delete">CE</button>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
+
